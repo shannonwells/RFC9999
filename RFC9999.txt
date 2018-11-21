@@ -1,0 +1,406 @@
+﻿
+Internet Engineering Joke Force (IEJF)                          S. Wells
+Request for Comments: 9999                                      
+Category: Practical Things and Whatnot                                       
+ISSN: 2070-1666                                              
+                                      
+
+      Get The Fuck Out Protocol: Procedure For Detection and Exit
+      Of An Obviously Haunted And Dangerous Domicile or Other Building
+
+Abstract
+
+   This document outlines in incredible and excruciating detail how to
+   detect a situation in which one should leave the building immediately
+   before it is sucked into a scary supernatural vortex of scariness, as
+   well as the subsequent exit procedure, and supports, but does not 
+   modify, the standard AIEEE metaphysical plane.  Basically, one does
+   simply tank cat one's way out of a haunted house.  We know some of you 
+   will try, and who additionally will not be deterred until there is an 
+   RFC covering it.
+
+Status of This Memo
+
+   This is a Proposed IRL Standards Document.
+
+   This document is a product of the Internet Engineering Joke Force Committee
+   For Outlining What Should Be Patently Obvious (IEJF-COWSBPO), which meets
+   at Antonio's Nut House every third Tuesday excepting new moons or when
+   GOOGL drops below six hundred dollars a share, in which case 
+   everyone panics.   
+   
+   This document is awaiting approval and not is intended for use IRL at 
+   this time.  No, really, please do not implement this protocol yet.  And
+   absolutely, under no circumstances, co-opt it for your own profit,
+   forcing everyone to accept your twisted, Byzantine version of it, especially 
+   if you are a giant corporation with a de facto monopoly.
+
+   Information about the current status of this document, any errata,
+   or erotica, and how to provide feedback on it may be obtained at
+   http://www.rfc-editor.org/info/rfc9999.  No wait, erotica is NOT
+   obtained there; it should be sent directly to the authors.
+
+Copyright Notice
+
+   Copyright (c) 2013 IEJF Trust and the persons identified as the
+   document authors.  All rights reserved.  Whatever that means.
+
+   This document is subject to 
+   (http://trustee.ietf.org/license-info) in effect on the date of
+   publication of this document.  Please review these documents
+   carefully, as they describe your rights and restrictions with respect to   
+   this document, although it is almost certain you will skip this
+   section and ignore the license entirely.  Code Components extracted from 
+   this document must include Simplified BSD (Bull Shit Detection) License text 
+   as described in blah blah blah I'm sure nobody is even reading this part
+   Section 42.cow of the Trust Legal Provisions and are provided without 
+   warranty as described in the Simplified BSD License, and will likely never
+   work anyway, bor-ing!  
+
+Table of Contents
+
+   1. Introduction ....................................................3
+      1.1. Co-Authors .................................................3
+   2. Terminology .....................................................4
+      2.1. GTFO Terminology ...........................................z
+      2.2. Conventions Used in This Document ..........................6
+   3. Detection and Verification of Supernatural Phenomena  ...........6
+      3.1.   Rule out Natural Conditions...............................9
+      3.2.   Violations of Physical Law ..............................10
+      3.huh  Unresolved Reference ....................................1z
+      3.d    Ghost Instance Identification ...........................1%
+   4. Specific Procedures ............................................22
+      4.0  Communications Resolution ..................................0
+      4.1. P2G Ether Ghost Protocol ..................................ab
+           4.1.1. Overview ............................................q
+           4.1.2. P2G Path Establishment..............................11
+           4.1.3  ACK Response .......................................1f
+           4.1.4  NOACK Response .....................................1m
+	  4.2. Protection Paths ......................................13
+      4.3. GTFOP Packet Contents .....................................12
+   5. Error Conditions ...............................................15
+      5.1. Invalid Exit  .............................................15
+      5.2. Packet Loss ...............................................16
+      5.3. Trip ......................................................16
+      5.5. Ignition Fail .............................................17
+      5.4. Premature Termination .....................................16
+   6. Security Considerations ........................................16
+
+   Fish. References ..................................................17
+     Fish.1. Normative References ....................................17
+     Fish.2. Informative References ..................................19
+       Fish.a.water. Valid Media......................................19
+       Fish.b.air. Invalid Media......................................19
+       Fish.c.ether Nonexistent Media.................................20
+     Fish.3. Abnormal References......................................20
+     Fish.4. Completely Irrelevant References.........................20
+     Fish.5. You Gotta Be Kidding Me References.......................20
+     Fish.6. You Actually Believed That? References...................20
+   &!&*!. Acknowledgments ............................................20
+
+
+
+1.  Introduction
+
+	GTFOP is designed to increase TTL for any process residing within an IRL
+	construction, when another is detected that cannot be terminated
+	through ordinary means, such as daemons, zombie processes, or 
+	other SHADEs (Supernatural Harassing and Destructive Entities).
+	
+1.1.  Co-Authors
+
+   This document is the result of a large team of authors and
+   contributors, who since beginning this document have collectively
+   lost about three stone, and so we are smaller. The following is a 
+   list of the co-authors:
+
+    Shannon E. Wells
+    $^*!, LLC
+    I8B4 Thanks Way
+    Noway, WA
+	
+
+2.  Terminology
+
+   In addition to well-understood normal-person terms, this memo uses the
+   following unnecessarily obfuscating jargon and acronyms, mainly so we can 
+   talk about it in IRC (that's Internet Relay Chat, n00b) and the office in 
+   front of the marketing and finance guys (e.g. Louis) without them   
+   understanding us. 
+
+   From AIEEE 666 [AIEEE666.1ah] [AIEEE666.1Qay]:
+
+      - ESP         Ether Sensory Protocol
+      - ESP-VID     ESP Visual Identification
+      - Eth-LSP     Ether Local Shade Protection
+      - G2P         Ghost-to-Person
+      - GTFO        Get The F- Out
+      - IRL         In Real Life
+      - L2RN        Lern 2 Run/Read N00b
+      - P2G         Person-to-Ghost
+      - SHADE       Supernatural Harassing and Destructive Entities
+      - SNPDP       SuperNatural Phenomenon Detection Procedure ("snip-dip") 
+      - TTL         Time To Live
+
+
+
+2.1.  GTFO Terminology (cont.)
+
+   Following is an expanded context to translate from AIEEE to L2RN terminology.  The terms "n00b" and "luser" 
+   are used interchangeably in this document.
+  
+	Ether Sensory Protocol (ESP) is enabled in some humans on instantiation and cannot be changed.  
+	It is deprecated in most modern instances, but legacy functionality is retained for compatibility. 
+	Feature detection   occurs on first G2P transmission.
+		
+	ESP-Visual Identification (ESP-VID) also known as ICDed-PPL, is a visual identification implementation  
+	of ESP requiring optical sensors and that ESP be enabled. ESP-VID is a more generic term and will be 
+	used in this document. 
+
+	Ether Local Shade Protection (Eth-LSP) refers to any method employed in SHADE process management 
+	in a defined perimeter, including firewalls, blocking, interrupts and termination.
+
+	Ghost-to-Person (G2P) refers to communication initiated by SHADEs.
+
+	Get The Fuck Out (GTFO) is the protocol outlined in this document.
+
+	In Real Life (IRL) means not online, Pasty McFlabberson; you should get out occasionally.
+
+	Learn To Read/Run N00b (L2RN)  If you are reading this, you still need to learn to run, Luser. 
+
+	Person To Ghost (P2G) Communication with SHADEs when initiated by a human. ESP is not required 
+	to be enabled, but is strongly recommended.
+
+	Supernatural Harassing and Destructive Entity (SHADE) refers to any perceptible entity outside 
+	the bounds of known physical law and which causes a lot of bother, including but not limited to 
+	improper/premature termination.
+
+	Super-Natural Phenomena Detection Protocol (SNPDP) procedure for ruling out altered states of 
+	consciousness and other boring things in order to determine if a real live undead ghost is present.
+
+	Time To Live (TTL) TTL may be greatly increased by strict adherence to GTFOP as outlined in this document.
+
+
+2.2.  Conventions Used in This Document
+
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", 
+"MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC2119].  LOLWHUT wtf is this 
+cheezburger cat doing here, I don't know how to use computer
+
+3. Super-Natural Phenomenon Detection Procedure (SNPDP)
+
+   GTFOP in this RFC shall apply only in the presence of the small subset of  SHADEs which are suspected 
+   to cause human error condition such as malfunction or early termination (via KILL command).  If this 
+   condition is not met and it is certain that a SHADE is present (regardless of G2P initiation) it is 
+   still recommended to utilize a different protocol rather than abandoning the building.  Please note 
+   that many ordinary, common situations are far more likely and should first be ruled out:
+
+3.1 Rule out Natural Conditions
+
+    a. PRACTICAL JOKES
+
+	Is it a practical joke?  Check these warning signs:
+
+	i. It is funny: you or others are laughing, or someone says something like, "hey, it was only a joke!"
+	ii. You are embarrassed.
+	iii. No physical laws have been broken <-- this is important
+
+    b. INTOXICATION
+
+	Are you intoxicated or high?  Check these warning signs:
+
+	i. What did you just take? Isn't this a sick party? Have you kept your eye on your drink?  Do you have any Doritos? 
+
+	ii. Did everything in the whole universe all of a sudden make TOTAL sense???  I mean WHOA.  
+
+	iii. Ask someone else if they saw the same thing you did.  Make sure you ask someone sober.  If you are 
+	     alone, keep in mind that if a SHADE is present, you may be initiating a P2G exchange.
+	
+	v. Dude.
+	vi. 
+	vii. 
+	viii. Wait . . . what?
+	
+	ix. That guy you can’t stand from the office suddenly seems super hot right now.  Maybe you should go talk to him.
+	x. Room is spinning, vision blurry . . . must. . . stay . . . zzzzz
+
+    c. DREAMING
+
+	Are/were you asleep?  Check these warning signs:
+
+	i. You are in bed
+	
+	ii. Your spouse/lover/buddy just asked if you are okay, said you seemed to be having a bad dream. 
+	
+	iii. You feel sleepy.
+	
+	v. Your ribcage hurts because your spouse/lover "just wanted you to quit snoring."
+	
+	vi. You feel that you cannot move, or that something is sitting on your chest.   This is common 
+	and is a result of sleep paralysis plus a half-awake dream state. Just go back to sleep, geez.  
+	No, we don't want to hear about it.  No, it is NOT aliens.
+
+    d. NATURAL DISASTER
+
+	1. Just because the ground has opened up and swallowed your house whole, it does not mean a dangerous 
+	SHADE is present.  Again, note whether any laws of physics have been violated.   Try climbing out of the hole. 
+
+	2. Are other houses collapsed?  Are people screaming in the street?  This is a big clue, especially 
+	if they are saying “OH MY GOD, AN EARTHQUAKE!”
+
+    e. CRAZY
+	Are you crazy?  Check these warning signs:
+
+	i. This has happened before and you didn't die.
+
+	ii. This has happened before, and you were hospitalized and surrounded by nice young men in clean white coats.
+
+	iii. Your family/friends have that "not again" look on their faces
+
+	iv. You went off your meds again, didn’t you.
+
+3.1  Non Sequitur
+
+
+    <------------ DISMOUNT BICYCLE ON PLATFORM N00B! -------------->
+    0                   1                   2                   3
+    0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 <-- peds 
+   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ on first
+-->|0 0 0 0|  Baby Bullet no stop here  |  Limited is limited sry  | :(
+|  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|  |         Local train 20m late, has only 1 bike car             |
+|  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|
+|--- 32 bikes! Take the next train! I don't care about your meeting!
+
+
+                    Figure 1: WHY I HATE CALTRAIN
+
+
+If you do observe laws of physics being broken, first ensure "Intoxication",  "Dreaming", or "Crazy" conditions 
+are not present.  If not, this strongly suggests SHADE presence. Some examples of the laws of physics being broken:
+
+	* Doors opening and shutting by themselves 
+	* Lights turning on and off by themselves.
+	* A voice tells you to "get out."
+	* Blood running down the walls
+	* Zombies
+	* You are stuck to the ceiling
+	* The hallway all of a sudden got really loooooooooooooooong
+	* A voice tells you to "go into the light."
+	* Knives flying around the room
+	* People who can be walked through, who pass through you, or who you can put your hand through.
+	* A talking disembodied floating head, even if it is Colonel Sanders
+	* Someone with long black hair is crawling out of the TV or the attic with slow, jerky motions 
+	* The walls turn to rubber, and bow out with a face and claws
+	* Spiders, flies, cockroaches, blood or foreign objects are pouring into, or out of:
+		- the heater vents
+		- the plumbing
+		- the closet
+		- your mouth
+	* That creepy clown doll/puppet/ventriloquist doll/broken babydoll is back in its chair when you know darn 
+	well you put it in the closet before you went to bed.  
+	* Now it has a tiny axe.
+	* Creepy doll is now sitting on the edge of your bed. You looked away for just a second, wtf?
+	* A low rumbling and a bright glow behind your closet door.
+	* Two words:  ONLY ZUUL
+
+IMMEDIATE GTFOP initialization is indicated, to maximize TTL for all human instances under the following conditions:
+
+	* Two or more laws of physics being broken is observed (you could be mistaken/ignorant/stupid; 
+	wait for two to be sure)
+	* A disembodied voice issues a suggestion, request or demand to leave the premises.
+	* A disheveled stranger or child comes to the door and points at you, saying, "you're gonna die here"
+    
+PROCEDURE:
+
+See Figure 2 for a sample GTFOP.
+
+	1. Look for the nearest exit to the outside.  This could even be a window.
+	2. Run.
+
+CAUTION:
+
+	1. Avoid hallways, unless required to reach exit.
+	2. Stay in lit areas.
+	3. Do not initiate P2G.
+	4. Do not hide in closet.
+	5. Do not enter attic, cellar, or a secret passages, particularly if it was not there 
+	   before and/or mysteriously opened by itself.
+	6. Do not investigate anything curious.
+	7. Do not play board games or solve puzzle boxes found inside the domicile.
+	8. Do not follow SHADEs.
+
+TROUBLESHOOTING:
+
+	1. Door slams shut and cannot be opened
+		a. Try a window.
+		b. Use something large to break down the door or through a window.
+		c. Wait for dawn.  This could be fatal.  Sorry.
+		
+	2. Exited house, but find self back in the house anyway
+		a. You are stuck in a time loop, not a haunted house.  Figure out what you’re screwing up 
+		   and do it right this time.  Don’t make us tell you again. 
+		a. You are stuck in a time loop, not a haunted house.  Figure out what you’re screwing up 
+		   and do it right this time.  Don’t make us tell you again.
+		a. You are stuck in a time loop, not a haunted house.  Figure out what you’re screwing up 
+		   and do it right this time.  Don’t make us tell you again.
+		b. You have been shifted to an alternate plane.  Initiate P2G, or just wait; they’ll 
+		   probably call on you.
+		c. You may already be dead and stuck haunting this house forever.  Sorry.
+		
+	3. Cannot find friend/lover/spouse.
+		a. Did you have sex with them, ever?
+			i. Yes: You’re screwed, but whoever is the biggest slut will die first.  
+			   Run. You may still have a chance.
+			ii. No:  Run.  You may still have a chance.
+		b. If you gave them a copy of this document, don’t worry about it; they know what to do. Run.
+		c. If you didn’t, they’re screwed.  Run.
+		
+	4. Ignition Fail: Exited house, car does not start
+		a. Yell at the car, "Come on! Come on!" while freaking out and flooding your engine.
+		b. Wait for SHADE to start beating on the car and tearing off the roof and try again.
+		c. Scream
+		d. Seriously though, don't do any of that; just get out of the damned car and run.
+
+
+
+
+                   GTFO Example Placement/Exit Diagram
+    +---------------------------------------------------------+
+    |                    < Route ID >                         |
+    |                                                         |
+    |   EXIT               DARK   S    DARK        I-Run away |
+    | +-------------------------+ C +-----------------------+ |
+    | |          +-----+        | A |               GTFO    | |
+    | |          |Ghost|        | R |   +-----+    +------+ | | <YOUR CAR>
+    | |          +-----+        | Y +<--|What.|    | your |------>
+    | |   GTFO      DO NOT WANT |   |   | NO  |    |friend| | | door
+door| |  +---+          +---+   | H |   +-----+    +------+ | |
+  <------|YOU|          |NO |-->+ A |   +-----+             | |   ^
+ |  | |  +---+          +---+   | L |   |SHADE|             | |   |
+ |  | +-------------------------+ L +---+-----+-------------+ |   | This Way,
+ |  |           DARK                     ^^^^^                |   | N00b
+ |  |                          SHADE coming out of wall       |   |
+ |  +---------------------------------------------------------+   |
+ v                                                                |
+  ----->>-- do not trip everyone does that it's so annoying--->>--
+
+     ^-------- What is this for --------------^
+                 ^-----------This overlaps the line above------^
+
+
+           FIGURE 2. EXAMPLE SHOWING PROPER EXIT PROCEDURE
+
+
+Acknowledgments
+
+I would like to thank the creators and casts of Poltergeist, The Grudge, The Ring, Hellraiser, Night of the 
+Living Dead, Child’s Play, Friday the 13th, Halloween, An American Horror Story, Magic, Tales from the Crypt, 
+Creepshow,  Puppet Master, The Twilight Zone, Evil Dead 1&2, plus H. P. Lovecraft, Alfred Hitchcock, 
+Edgar Allan Poe, Mary Shelley, Wilkie Collins, Stephen King, and countless others, all of whom I surely 
+cannot list, who have entertained generations of people and informed our serious and humorous senses of 
+the macabre on film and on paper.
+
+Copyright 2013 Shannon E. Wells
+^^^^^^^^^^^^^^^^^^^ Copyright for realz
